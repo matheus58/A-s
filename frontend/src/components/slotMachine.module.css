@@ -1,0 +1,103 @@
+.jogoBackground {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #2a2a3d;
+}
+
+.jogoContainer {
+  position: relative;
+  width: 600px;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+.jogoSlotMachine {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.jogoSlot {
+  width: 150px;
+  height: 200px;
+  background-color: #c47f17;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jogoSlot img {
+  width: 80%;
+  height: auto;
+}
+
+.jogoHighlighted {
+  border: 5px solid #ffeb3b;
+}
+
+.jogoRontrols {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.jogoBalance,
+.jogoBet {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.jogoBalance span,
+.jogoBet span {
+  margin: 0 10px;
+}
+
+.jogoBalance input {
+  width: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.jogoBet button {
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.jogoPlayButton {
+  margin-bottom: 20px;
+}
+
+.jogoPlayButton button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.jogoExitButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}

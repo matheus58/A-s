@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(46, 46, 46);
+    color: antiquewhite;
+
+}
+main{
+    margin-top: 100px;
+}
+footer{
+    margin-top: 500px;
+}
+
+/*parte do css das cartas*/
+.container{
+    width:100%;
+    max-width: 1440%;
+    margin:0 auto;
+}
+
+
+.card{
+    background-color: black;
+    color: aliceblue;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 25rem;
+}

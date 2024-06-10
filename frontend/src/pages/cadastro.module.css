@@ -1,0 +1,23 @@
+.cadastro{
+    background-color: rgb(16, 16, 22);
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.logo{
+    width: 50%;
+}
+
+.cadastro form{
+    width: 40%;
+}
+.butoes {
+    display: flex;
+    gap: 10px; /* Adiciona espaço entre os botões */
+}

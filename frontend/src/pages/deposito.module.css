@@ -1,0 +1,108 @@
+/* deposito.module.css */
+.carteiraContainer {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 40px; /* Afasta o container da navbar */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.menuIcon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logoImage {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.infoDeposito, .saldoCarteira {
+    background-color: #2B3245;
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+}
+
+.heading {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.inputText {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1E2533;
+    color: #E0E0E0;
+}
+
+.inputReadOnly {
+    background-color: #1E2533;
+    color: #E0E0E0;
+}
+
+.adicionar, .editar, .deletar {
+    padding: 10px 20px; /* Tamanho igual para todos os botões */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+}
+
+.adicionar {
+    background-color: #00A3E0;
+}
+
+.editar {
+    background-color: #f39c12;
+    margin-left: 10px; /* Adiciona espaço entre os botões */
+}
+
+.deletar {
+    background-color: #e74c3c;
+    margin-left: 10px; /* Adiciona espaço entre os botões */
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.salvarCartao, .sair {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #00A3E0;
+    color: #fff;
+}
