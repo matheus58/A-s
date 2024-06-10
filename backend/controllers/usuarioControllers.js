@@ -17,7 +17,30 @@ const usuariosController = {
             console.log(error);
             res.status(500).json({ error: "Ocorreu um erro ao criar o usuário." });
         }
+    },
+    getAll: async (req, res) => {
+        try {
+
+            const usuario = await UsuarioModel.find();
+            res.json(usuario);
+
+        } catch (error) {
+            console.log(error);
+        }
+    },
+    get: async (req, res) => {
+        try {
+
+            const id = req.params.id;
+
+            const usuario = await UsuarioModel.findById(id);
+    
+            res.json(usuario);
+        } catch (error) {
+            console.log(error);
+        }
     }
 };
+
 
 module.exports = usuariosController;

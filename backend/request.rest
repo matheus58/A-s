@@ -8,3 +8,10 @@ Content-Type: application/json
     "email": "pedro@email",
     "senha": "333"
 }
+
+###
+GET http://localhost:3000/api/usuario
+
+
+###
+GET http://localhost:3000/api/usuario/6666769957cca3cb40871606
