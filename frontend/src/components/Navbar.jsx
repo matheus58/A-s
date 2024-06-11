@@ -29,16 +29,13 @@ export function Navbar(){
                                     <a className="nav-link" href="/Home">Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Jogos</a>
-                                </li>
-                                <li className="nav-item">
                                     <a className="nav-link" href="/Login">Login</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/Cadastro">Cadastro</a>
+                                    <a className="nav-link" href="/Jogo">Jogo</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="/Carteira">Carteira</a>
+                                    <a className="nav-link" href="/Deposito">Carteira</a>
                                 </li>
                             </ul>
                         </div>
