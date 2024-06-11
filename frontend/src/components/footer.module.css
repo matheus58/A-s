@@ -1,65 +1,67 @@
+.footer {
+    background-color: #2B3245; /* Cor mais escura para o rodapé */
+    padding: 20px 0;
+    color: #fff;
+    text-align: center; /* Centraliza o texto do rodapé */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    overflow: hidden; /* Esconde qualquer conteúdo que transborde */
+}
+
 .footerContainer {
-    background-color: black;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    padding: 10px;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px; /* Adiciona padding lateral para alinhamento */
 }
 
 .footerSection {
     flex: 1;
-    min-width: 150px;
-    margin: 5px;
+    min-width: 200px;
+    margin: 10px 0; /* Remove margem horizontal */
+    text-align: center; /* Centraliza o texto das seções do rodapé */
+    border-right: 1px solid #1B1F2B; /* Barra vertical entre seções */
+    padding: 0 20px; /* Adicionando espaço ao redor do conteúdo */
+}
+
+.footerSection:last-child {
+    border-right: none; /* Remove a barra vertical da última seção */
 }
 
 .footerSection h3 {
-    border-bottom: 2px solid #fff;
-    padding-bottom: 5px;
-    margin-bottom: 5px;
-    color: #fff; /* Alterado para branco */
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.footerSection p, .footerSection ul, .footerSection a { /* Corrigido o nome da classe */
-    color: #b3cde0;
+.footerSection p, .footerSection ul {
+    margin: 5px 0;
     font-size: 14px;
 }
 
 .footerSection ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
-.footerSection ul li {
-    margin: 5px 0;
-}
-
 .footerSection ul li a {
+    color: #fff;
     text-decoration: none;
-    color: #b3cde0;
 }
 
 .footerSection ul li a:hover {
     text-decoration: underline;
 }
 
-.socialLinks a { /* Corrigido o nome da classe */
-    display: inline-block;
-    margin: 0 5px;
-}
-
-.socialLinks img { /* Corrigido o nome da classe */
-    width: 24px;
-    height: 24px;
-}
-
 .footerBottom {
-    margin-top: 10px;
-}
-
-.footerBottom p {
-    margin: 0;
-    font-size: 12px;
-    color: #b3cde0;
+    margin-top: 20px;
+    text-align: center; /* Centraliza o texto na parte inferior do rodapé */
+    font-size: 14px;
+    border-top: 1px solid #fff; /* Linha mais escura acima da informação de direitos reservados */
+    padding: 15px 0; /* Espaço entre a linha e o texto */
+    background-color: #1E2533; /* Fundo azul mais escuro */
+    overflow: hidden; /* Esconde qualquer conteúdo que transborde */
 }

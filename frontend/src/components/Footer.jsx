@@ -1,9 +1,8 @@
-import style from './footer.module.css'
+import style from './footer.module.css';
 
-export function Footer(){
-    return(
-        <>
-        <footer>
+export function Footer() {
+    return (
+        <footer className={style.footer}>
             <div className={style.footerContainer}>
                 <div className={style.footerSection}>
                     <h3>Sobre Nós</h3>
@@ -15,20 +14,19 @@ export function Footer(){
                         <li><a href="/Login">Login</a></li>
                         <li><a href="/Cadastro">Cadastro</a></li>
                         <li><a href="/Jogo">Apostas</a></li>
-                        <li><a href="/Deposito">Depositos</a></li>
+                        <li><a href="/Deposito">Depósitos</a></li>
                     </ul>
                 </div>
                 <div className={style.footerSection}>
                     <h3>Contato</h3>
-                    <p>Email: suporte@siteapostas.com</p>
-                    <p>Telefone: (11) 1234-5678</p>
-                    <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+                    <p>Email: suporte@ask.com</p>
+                    <p>Telefone: (11) 4002-8922</p>
+                    <p>Endereço: Condado de Kane, 123, Newark, Nova Jersey</p>
                 </div>
             </div>
             <div className={style.footerBottom}>
-                <p>&copy; 2024 Site de Apostas. Todos os direitos reservados.</p>
+                <p>&copy; 2024 As'k, Site de Apostas. Todos os direitos reservados.</p>
             </div>
         </footer>
-        </>
-    )
+    );
 }

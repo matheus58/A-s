@@ -1,4 +1,4 @@
-
+import React, { useState } from 'react';
 import styles from './edicao.module.css';
 
 export function Edicao() {
