@@ -1,8 +1,79 @@
-.card{
-    background-color: black;
-    color: aliceblue;
-    margin-top: 40px;
-    margin-left: 100px;
-    margin-right: 100px;
-    width: 25rem;
+:root {
+    --color-primary: #1E2533; /* Cor mais escura */
+    --color-secondary: #2B3245; /* Cor mais clara */
+    --color-light-blue: #3b5998; /* Azul claro */
+}
+
+.container {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    margin: 100px auto 50px; /* Adicionando margem superior e reduzindo a margem inferior */
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input {
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.editButton, .deleteButton {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.editButton {
+    background-color: var(--color-light-blue); /* Azul claro */
+}
+
+.editButton:hover {
+    background-color: #5b78b8; /* Azul mais claro no hover */
+}
+
+.deleteButton {
+    background-color: #d9534f;
+}
+
+.deleteButton:hover {
+    background-color: #c9302c;
 }
