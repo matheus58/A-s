@@ -3,17 +3,19 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #2a2a3d;
+  padding: 20px; /* Adiciona um pouco de preenchimento para evitar que o conteúdo toque as bordas da tela */
 }
 
 .jogoContainer {
   position: relative;
   width: 600px;
-  background-color: #333;
+  background-color: #2B3245; /* Alterando a cor de fundo para azul */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   text-align: center;
+  max-height: 90vh; /* Limita a altura máxima do contêiner */
+  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
 }
 
 .jogoSlotMachine {
@@ -41,7 +43,7 @@
   border: 5px solid #ffeb3b;
 }
 
-.jogoRontrols {
+.jogoControls {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
@@ -76,28 +78,46 @@
   cursor: pointer;
 }
 
-.jogoPlayButton {
-  margin-bottom: 20px;
+.jogoButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Reduz o espaçamento do topo */
 }
 
-.jogoPlayButton button {
-  background-color: #28a745;
+.jogoButtonGroup {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.jogoPlayButton,
+.jogoExitButton,
+.jogoDeleteButton {
+  width: 120px; /* Largura reduzida */
+}
+
+.jogoPlayButton,
+.jogoExitButton,
+.jogoDeleteButton {
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 8px 16px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.jogoPlayButton {
+  background-color: #007bff; /* Azul */
+  margin-right: 10px; /* Espaçamento entre Play e Sair */
 }
 
 .jogoExitButton {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background-color: #dc3545;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  padding: 5px 10px;
-  cursor: pointer;
+  background-color: #dc3545; /* Vermelho */
+}
+
+.jogoDeleteButton {
+  background-color: #ffc107; /* Amarelo */
 }

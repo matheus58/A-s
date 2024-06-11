@@ -18,9 +18,10 @@
     border-bottom: 2px solid #fff;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    color: #fff; /* Alterado para branco */
 }
 
-.footerSection p, .footer-section ul, .footer-section a {
+.footerSection p, .footerSection ul, .footerSection a { /* Corrigido o nome da classe */
     color: #b3cde0;
     font-size: 14px;
 }
@@ -43,12 +44,12 @@
     text-decoration: underline;
 }
 
-.sociaLinks a {
+.socialLinks a { /* Corrigido o nome da classe */
     display: inline-block;
     margin: 0 5px;
 }
 
-.socialLinks img {
+.socialLinks img { /* Corrigido o nome da classe */
     width: 24px;
     height: 24px;
 }

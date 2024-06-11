@@ -1,4 +1,5 @@
 import style from './footer.module.css'
+
 export function Footer(){
     return(
         <>
@@ -11,10 +12,10 @@ export function Footer(){
                 <div className={style.footerSection}>
                     <h3>Links Rápidos</h3>
                     <ul>
-                        <li><a href="#">Início</a></li>
-                        <li><a href="#">Apostas</a></li>
-                        <li><a href="#">Promoções</a></li>
-                        <li><a href="#">Contato</a></li>
+                        <li><a href="/Login">Login</a></li>
+                        <li><a href="/Cadastro">Cadastro</a></li>
+                        <li><a href="/Jogo">Apostas</a></li>
+                        <li><a href="/Deposito">Depositos</a></li>
                     </ul>
                 </div>
                 <div className={style.footerSection}>
