@@ -106,3 +106,11 @@ header {
     background-color: #00A3E0;
     color: #fff;
 }
+
+.adicionar:hover,
+.editar:hover,
+.deletar:hover,
+.salvarCartao:hover,
+.sair:hover {
+  filter: brightness(90%);
+}
