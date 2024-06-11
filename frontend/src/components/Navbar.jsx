@@ -37,6 +37,9 @@ export function Navbar(){
                                 <li className="nav-item">
                                     <a className="nav-link" href="/Deposito">Carteira</a>
                                 </li>
+                                <li className="nav-item">
+                                    <a className="nav-link" href="/Carteira">Editar Dados</a>
+                                </li>
                             </ul>
                         </div>
                     </div>

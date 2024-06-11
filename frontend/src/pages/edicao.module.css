@@ -1,0 +1,68 @@
+:root {
+    --color-primary: #1E2533; /* Cor mais escura */
+    --color-secondary: #2B3245; /* Cor mais clara */
+    --color-light-blue: #3b5998; /* Azul claro */
+    --color-light-green: #2ecc71; /* Verde escuro */
+}
+
+.container {
+    background-color: var(--color-secondary);
+    border-radius: 10px;
+    padding: 30px;
+    width: 400px;
+    margin: 100px auto 50px; /* Adicionando margem superior e reduzindo a margem inferior */
+    color: white;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.label {
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.input {
+    background-color: var(--color-primary);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    opacity: 0.8;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center; /* Centraliza o botão na tela */
+    margin-top: 20px;
+    width: 100%;
+}
+
+.saveButton {
+    background-color: var(--color-light-green); /* Verde escuro */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.saveButton:hover {
+    background-color: #27ae60; /* Verde mais claro no hover */
+}

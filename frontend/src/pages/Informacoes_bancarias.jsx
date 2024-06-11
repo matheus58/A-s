@@ -1,11 +1,12 @@
-import istyle from './Informacoes_bancarias.css'
-export function Carteira() {
+import istyle from './informacoes_bancarias.module.css';
+
+export function Informacoes_bancarias() {
     return (
         <>
-            <main className="carteira-container">
-                <div className="container">
-                    <div className="content">
-                        <div className="info-deposito">
+            <main className={istyle.carteiraContainer}>
+                <div className={istyle.container}>
+                    <div className={istyle.content}>
+                        <div className={istyle.infoDeposito}>
                             <h2>Informações para depósito</h2>
                             <form>
                                 <label htmlFor="nome">Nome</label>
@@ -26,13 +27,13 @@ export function Carteira() {
                                 <label htmlFor="cvc">CVC</label>
                                 <input type="text" id="cvc" placeholder="000" />
                                 
-                                <div className="buttons">
-                                    <button type="button" className="salvar-cartao">Salvar Cartão</button>
-                                    <button type="button" className="sair">Sair</button>
+                                <div className={istyle.buttons}>
+                                    <button type="button" className={istyle.salvarCartao}>Salvar Cartão</button>
+                                    <button type="button" className={istyle.sair}>Sair</button>
                                 </div>
                             </form>
                         </div>
-                        <div className="saldo-carteira">
+                        <div className={istyle.saldoCarteira}>
                             <h2>Saldo da Carteira</h2>
                             <div>
                                 <label htmlFor="valor-deposito">Valor para depósito</label>
@@ -46,7 +47,7 @@ export function Carteira() {
                                 <label htmlFor="quantia-saque">Digite quantia para saque</label>
                                 <input type="text" id="quantia-saque" value="0.00 R$" />
                             </div>
-                            <button className="adicionar">adicionar</button>
+                            <button className={istyle.adicionar}>adicionar</button>
                         </div>
                     </div>
                 </div>
