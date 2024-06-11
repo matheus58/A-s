@@ -8,6 +8,7 @@ import { Carteira } from './pages/Carteira'
 import { Deposito } from './pages/Deposito'
 import { Jogo } from './pages/Jogo'
 import { Jogo2 } from './components/Jogo2'
+import { Edicao } from './pages/Edicao'
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
       <Route path='/Deposito' element={<Deposito/>}/>
       <Route path='/Jogo' element={<Jogo/>} />
       <Route path='/Jogo2' element={<Jogo2/>} />
+      <Route path='/Ediçao' element={<Edicao/>} />
     </Routes>
     <Footer/>
     </BrowserRouter>
