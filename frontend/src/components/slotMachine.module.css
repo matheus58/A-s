@@ -131,3 +131,9 @@
 .jogoDeleteButton {
   background-color: #ffc107;
 }
+
+.jogoPlayButton:hover,
+.jogoExitButton:hover,
+.jogoDeleteButton:hover {
+  filter: brightness(90%); /* Reduz um pouco o brilho para escurecer */
+}

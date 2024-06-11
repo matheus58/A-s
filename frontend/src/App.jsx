@@ -8,24 +8,27 @@ import { Carteira } from './pages/Carteira'
 import { Deposito } from './pages/Deposito'
 import { Jogo } from './pages/Jogo'
 import { Jogo2 } from './components/Jogo2'
+import { Informacoes_bancarias } from './pages/Informacoes_bancarias'
 import { Edicao } from './pages/Edicao'
 import { Informacoes_bancarias } from './pages/Informacoes_bancarias'
+
 
 function App() {
 
   return (
     <BrowserRouter>
     <Navbar/>
-    <Routes>
-      <Route path='/' element={<Login/>}/>    
+    <Routes>  
+      <Route path="/" element={<Login />} />
       <Route path="/Home"element ={<Home/>}/>
       <Route path="/Cadastro" element ={<Cadastro/>}/>
       <Route path='/Carteira' element={<Carteira/>}/>
       <Route path='/Deposito' element={<Deposito/>}/>
       <Route path='/Jogo' element={<Jogo/>} />
       <Route path='/Jogo2' element={<Jogo2/>} />
-      <Route path='/Ediçao' element={<Edicao/>} />
       <Route path='/Informacoes_bancarias' element={<Informacoes_bancarias/>} />
+      <Route path='/Login' element={<Login/>} />
+      <Route path='/Edicao' element={<Edicao/>} />
     </Routes>
     <Footer/>
     </BrowserRouter>

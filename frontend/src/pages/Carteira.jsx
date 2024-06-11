@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; // Importe o Link
 import styles from './carteira.module.css';
 
 export function Carteira() {
@@ -16,7 +17,8 @@ export function Carteira() {
                 </label>
             </div>
             <div className={styles.buttons}>
-                <button className={styles.editButton}>Editar Informações</button>
+                {/* Use o Link para redirecionar para a página de edição */}
+                <Link to="/Edicao" className={styles.editButton}>Editar Informações</Link>
                 <button className={styles.deleteButton}>Excluir Conta</button>
             </div>
         </div>

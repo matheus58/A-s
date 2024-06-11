@@ -6,28 +6,32 @@ export function Home() {
       <main>
         <Carrosel />
         <div>
-          <div class="container overflow-hidden">
-            <div class="row gx-5">
-              <div class="col">
-                <div class="p-3">
-                  <div class="card" alt="card-carteira">
+          <div className="container overflow-hidden">
+            <div className="row gx-5">
+              <div className="col">
+                <div className="p-3">
+                  <div className="card" alt="card-carteira">
                     <img src="src/img/carteira.webp" alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Carteira</h5>
-                      <p class="card-text">Deposite seu dinheiro para começar a multiplicá-lo</p>
-                      <a href="/Deposito" class="btn btn-primary">Ir para carteira</a>
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Carteira</h5>
+                      <p className="card-text">Deposite seu dinheiro para começar a multiplicá-lo</p>
+                      <div className="d-flex justify-content-center">
+                        <a href="/Deposito" className="btn btn-primary">Ir para carteira</a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col">
-                <div class="p-3">
-                  <div class="card" alt="card-apostas">
+              <div className="col">
+                <div className="p-3">
+                  <div className="card" alt="card-apostas">
                     <img src="src/img/005.webp" alt="" />
-                    <div class="card-body">
-                      <h5 class="card-title">Jogo</h5>
-                      <p class="card-text">Deposite seu dinheiro para começar a multiplicá-lo</p>
-                      <a href="/Jogo" class="btn btn-primary">Ir para jogo</a>
+                    <div className="card-body">
+                      <h5 className="card-title text-center">Jogo</h5>
+                      <p className="card-text">Deposite seu dinheiro para começar a multiplicá-lo</p>
+                      <div className="d-flex justify-content-center">
+                        <a href="/Jogo" className="btn btn-primary">Ir para jogo</a>
+                      </div>
                     </div>
                   </div>
                 </div>

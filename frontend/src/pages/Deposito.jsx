@@ -1,6 +1,8 @@
 import styles from './deposito.module.css'
 
- export function Deposito(){
+export function Deposito(){
+
+
     return (
         <>
         <main className={styles.carteiraContainer}>
