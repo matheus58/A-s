@@ -27,7 +27,7 @@ export function Home(){
                                     <div class="card-body">
                                         <h5 class="card-title">Jogo</h5>
                                         <p clss="card-text">Deposite seu dinheiro para comesar a muutiplicalo</p>
-                                        <a href="#" class="btn btn-primary"> ir para jogo</a>
+                                        <a href="/Jogo" class="btn btn-primary"> ir para jogo</a>
                                     </div>
                                 </div>
                             </div>
