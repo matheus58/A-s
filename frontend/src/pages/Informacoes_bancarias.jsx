@@ -1,8 +1,9 @@
-import istyle from './Informacoes_bancarias.css'
-export function Carteira() {
+import istyle from './informacoes_bancarias.module.css'
+
+export function Informacoes_bancarias () {
     return (
         <>
-            <main className="carteira-container">
+            <main className={istyle.carteira-container}>
                 <div className="container">
                     <div className="content">
                         <div className="info-deposito">

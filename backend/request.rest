@@ -1,17 +1,30 @@
 POST http://localhost:3000/api/usuario
 Content-Type: application/json
-
 {
-    "nome": "pedro",
-    "nome_usuario": "pedro",
-    "data_nacimento": "200-04-20",
-    "email": "pedro@email",
-    "senha": "333"
+    "nome": "mat",
+    "nome_usuario": "mat001",
+    "data_nacimento": "2000-04-27",
+    "email": "mat@email",
+    "senha": "mat123"
 }
-
 ###
 GET http://localhost:3000/api/usuario
 
+### 
+GET http://localhost:3000/api/usuario/66672c082e74d72fe52fa16d
+
+### 
+DELETE  http://localhost:3000/api/usuario/6667f38cfad4c6ec6c684137
+
 
 ###
-GET http://localhost:3000/api/usuario/6666769957cca3cb40871606
+PUT http://localhost:3000/api/usuario/6667c5c9b080c811623c0ce9
+Content-Type: application/json
+
+{
+    "nome": "mat",
+    "nome_usuario": "mat001",
+    "data_nacimento": "2000-04-27",
+    "email": "mat@email",
+    "senha": "mat123"
+}

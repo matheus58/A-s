@@ -1,5 +1,5 @@
 const express = require("express")
-const cors = require("cors") //garante que nao tenha conflito com o front 
+const cors = require("cors") 
 const app = express()
 
 app.use(cors())
@@ -11,7 +11,7 @@ const conn = require("./db/conn");
 conn();
 
 //Routes
-const routes = require("./routes/routes");
+const routes = require("./routes/router");
 app.use("/api", routes);
 
 app.listen(3000,function(){

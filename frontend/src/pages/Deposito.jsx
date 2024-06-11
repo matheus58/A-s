@@ -1,7 +1,8 @@
-import styles from './deposito.module.css';
+import styles from './deposito.module.css'
 
- {
+ export function Deposito(){
     return (
+        <>
         <main className={styles.carteiraContainer}>
             <div className={styles.container}>
                 <div className={styles.content}>
@@ -119,5 +120,6 @@ import styles from './deposito.module.css';
                 </div>
             </div>
         </main>
+        </>
     );
 }
