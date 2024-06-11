@@ -17,7 +17,7 @@ export function Carteira() {
                 </label>
             </div>
             <div className={styles.buttons}>
-                {/* Substitua o botão por um Link */}
+                {/* Use o Link para redirecionar para a página de edição */}
                 <Link to="/Edicao" className={styles.editButton}>Editar Informações</Link>
                 <button className={styles.deleteButton}>Excluir Conta</button>
             </div>
