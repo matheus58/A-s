@@ -3,30 +3,30 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  padding: 20px; /* Adiciona um pouco de preenchimento para evitar que o conteúdo toque as bordas da tela */
+  padding: 20px; /* Padding to prevent content from touching screen edges */
 }
 
 .jogoContainer {
   position: relative;
-  width: 600px;
-  background-color: #2B3245; /* Alterando a cor de fundo para azul */
-  padding: 20px;
+  width: 800px; /* Increased width */
+  background-color: #2B3245; /* Changed background color to blue */
+  padding: 30px; /* Increased padding */
   border-radius: 10px;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
   text-align: center;
-  max-height: 90vh; /* Limita a altura máxima do contêiner */
-  overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+  max-height: 90vh; /* Limits the max height of the container */
+  overflow-y: auto; /* Adds vertical scroll if necessary */
 }
 
 .jogoSlotMachine {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Increased margin bottom */
 }
 
 .jogoSlot {
-  width: 150px;
-  height: 200px;
+  width: 200px; /* Increased width */
+  height: 250px; /* Increased height */
   background-color: #c47f17;
   border-radius: 10px;
   display: flex;
@@ -35,18 +35,14 @@
 }
 
 .jogoSlot img {
-  width: 80%;
+  width: 100%; /* Adjusted width */
   height: auto;
-}
-
-.jogoHighlighted {
-  border: 5px solid #ffeb3b;
 }
 
 .jogoControls {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px; /* Increased margin bottom */
 }
 
 .jogoBalance,
@@ -58,15 +54,15 @@
 
 .jogoBalance span,
 .jogoBet span {
-  margin: 0 10px;
+  margin: 0 15px; /* Increased margin */
 }
 
 .jogoBalance input {
-  width: 100px;
+  width: 150px; /* Increased width */
   text-align: center;
   border: none;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px; /* Increased padding */
 }
 
 .jogoBet button {
@@ -74,7 +70,7 @@
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 15px; /* Increased padding */
   cursor: pointer;
 }
 
@@ -82,20 +78,20 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 10px; /* Reduz o espaçamento do topo */
+  margin-top: 20px; /* Increased margin top */
 }
 
 .jogoButtonGroup {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 20px; /* Increased margin bottom */
 }
 
 .jogoPlayButton,
 .jogoExitButton,
 .jogoDeleteButton {
-  width: 120px; /* Largura reduzida */
+  width: 150px; /* Increased width */
 }
 
 .jogoPlayButton,
@@ -104,20 +100,20 @@
   color: white;
   border: none;
   border-radius: 5px;
-  padding: 8px 16px;
+  padding: 12px 20px; /* Increased padding */
   cursor: pointer;
-  font-size: 14px;
+  font-size: 16px; /* Increased font size */
 }
 
 .jogoPlayButton {
-  background-color: #007bff; /* Azul */
-  margin-right: 10px; /* Espaçamento entre Play e Sair */
+  background-color: #007bff; /* Blue */
+  margin-right: 15px; /* Increased margin between Play and Exit */
 }
 
 .jogoExitButton {
-  background-color: #dc3545; /* Vermelho */
+  background-color: #dc3545; /* Red */
 }
 
 .jogoDeleteButton {
-  background-color: #ffc107; /* Amarelo */
+  background-color: #ffc107; /* Yellow */
 }
