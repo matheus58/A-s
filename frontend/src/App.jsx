@@ -11,7 +11,6 @@ import { Jogo2 } from './components/Jogo2'
 import { Edicao } from './pages/Edicao'
 
 
-
 function App() {
 
   return (
