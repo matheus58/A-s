@@ -1,11 +1,12 @@
 POST http://localhost:3000/api/usuario
 Content-Type: application/json
+
 {
-    "nome": "mat",
-    "nome_usuario": "mat001",
-    "data_nacimento": "2000-04-27",
-    "email": "mat@email",
-    "senha": "mat123"
+    "nome": "pebinha",
+    "nome_usuario": "peb001",
+    "data_nacimento": "2010-08-26",
+    "email": "pebi@email",
+    "senha": "pebi123"
 }
 ###
 GET http://localhost:3000/api/usuario
